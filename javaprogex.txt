@@ -1,0 +1,28 @@
+Package Java
+Class Methods
+{
+public static void main(String agrs[])
+{
+ Methods obje=new Methods();
+ int add=obje.sum(2,5);
+ System.out.println(add);
+ obje.Display();
+ obje.Multiplication(10,12);
+
+
+ }
+public int sum(int a,int b)
+{
+  int c=a+b;
+  return c;
+}
+public void Display()
+{
+ System.out.println("sum of no:"+c);
+}
+public void Multiplication(int a,int b)
+{
+  int d=a+b;
+  System.out.println("multiplication of no:"+d);
+}
+}
